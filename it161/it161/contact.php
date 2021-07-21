@@ -1,7 +1,7 @@
  <!DOCTYPE html>
 <html lang="en">
  <head>
-  <title>Kacie Nielsen's IT1 61 Portal Website</title>
+  <title>Kacie Nielsen: Contact Form</title>
   <meta name="robots" content="noindex,nofollow" />
   <meta name="viewport" content="width=device-width" />
   <meta charset="utf-8" />
@@ -10,9 +10,9 @@
  </head>
  <body>
      <header>
-     <h1>Kacie's IT 161 Portal Website</h1>
+     <h1>Kacie Nielsen: Contact Form</h1>
      <nav class="topnav" id="myTopnav">
-       <a href="index.html" class="active">Welcome</a>
+       <a href="index.html">Welcome</a>
        <a href="elements.html">HTML Elements</a>
        <a href="aia.html">AIA</a>
        <a href="big/index.html">BIG</a>
@@ -20,28 +20,16 @@
        <a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Learning</a>
        <a href="flowchart.html">Flowchart</a>
        <a href="fp/index.html">Final Project</a>   
-       <a href="contact.php">Contact Kacie</a>
+       <a href="contact.php" class="active">Contact Kacie</a>
        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
      </nav>
      </header>
      
    <div class="wrapper">
      
-     <img class="desktop" src="images/desktop.jpg" alt="Photo of a black cat and dog" />
-       
-     <img class="tablet" src="images/tablet.jpg" alt="Photo of a black cat and dog" />
-       
-     <img class="phone" src="images/phone.jpg" alt="Photo of a cute black kitten" />
-       
-       <h2 class="subheader">About Me</h2>
-       
-       <p>Hi there, I'm Kacie. This is my thrid quarter at Seattle Central and my first 
-         quarter officially in the Web Development program. I'm a Seattle native and have lived
-          in in many different neighborhoods, most memorably, Alki beach in West Seattle.</p>
-           <p>Currently, I live on First Hill with my boyfriend and my cat, Moose.
-            I'm especially passionate about running, skincare, animal welfare, and heavy metal music. 
-       </p>
-    
+       <h2 class="subheader">Contact Kacie</h2>
+         <p>&diams;Contact coming soon&diams;</p>
+     
        
      <footer>
       <p><small>&copy; 2021 by 
