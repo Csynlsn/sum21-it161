@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Kacie Nielsen's IT161 Final Project</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/navstyles.css" />
+  <link rel="stylesheet" href="css/footerstyles.css" />
+ </head>
+ <body>
+     <header>
+      <h1 class="header-logo">
+        <a class="header-logo" href="index.html">Title/Link</a> 
+      </h1>
+     <nav class="topnav" id="myTopnav">
+       <a href="index.html" class="active">Home</a>
+       <a href="about.html">About</a>
+       <a href="purchase.html">Purchase</a>
+       <a href="gallery.html">Gallery</a> 
+       <a href="contact.html">Contact</a>
+       <a href="testabout.html">TEST</a>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+     </nav>
+     </header>
+
+     <h1>Welcome</h1>
+     
+     <div class="wrapper">
+
+      <!---Mobile display only START-->
+      <div id="content-mobile">
+        <section class="home">
+         <h2 class="subheader">Duis maximus ligula et nulla</h2>
+         
+         <p>Nam tincidunt risus et ullamcorper ullamcorper. Aliquam iaculis, diam in lacinia ullamcorper, 
+           sem ex tincidunt libero. Donec in vehicula. Mauris rhoncus congue nibh, ac cursus eros consequat ac. Nunc facilisis a mauris eu efficitur. 
+           Praesent ultrices vitae mauris vitae elementum.
+          </p>
+          </section> 
+        </div>
+
+        <!---Mobile display only END-->
+
+      <img class="desktop" src="fpimages/tarot-card-propheta.jpeg" alt="Photo of the Prophet card. Blue and aquatic themed with female form drapped in robes walking on water between two columns" />
+        
+      <!--<img class="tablet" src="fpimages/tarot-card-propheta.jpeg" alt="Photo of the Prophet card. Blue and aquatic themed with female form drapped in robes walking on water between two columns" />-->
+        
+      <img class="phone" src="fpimages/card-princess-of-wands.jpeg" alt="Photo of Princess of Wands card. Fire themed with feminine statue  holding staff standing amoung flames near luminous stones" />
+       
+      <div id="content-desktop">
+      <section class="home">
+       <h2 class="subheader">Duis maximus ligula et nulla</h2>
+       <p>Nam tincidunt risus et ullamcorper ullamcorper. Aliquam iaculis, diam in lacinia ullamcorper, 
+         sem ex tincidunt libero. Donec in vehicula. Mauris rhoncus congue nibh, ac cursus eros consequat ac. Nunc facilisis a mauris eu efficitur. 
+         Praesent ultrices vitae mauris vitae elementum.
+        </p>
+
+
+        </section> 
+      </div>
+
+
+      <aside>
+        <h2 class="subheader">Reviews</h2>
+        <p>Quisque feugiat massa et ipsum rutrum, sed hendrerit mi fringilla. 
+          Sed vehicula ut eros in tempor. Nullam eu sapien tempus, pellentesque ex ut, cursus mi. Donec in vehicula. Mauris rhoncus congue nibh, ac cursus eros consequat ac. Nunc facilisis a mauris eu efficitur. 
+          Praesent ultrices vitae mauris vitae elementum. </p>
+        </aside>
+
+       
+          <div class="footer-dark">
+              <footer>
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-sm-6 col-md-3 item">
+                              <h3>Services</h3>
+                              <ul>
+                                  <li><a href="#">Web design</a></li>
+                                  <li><a href="#">Development</a></li>
+                                  <li><a href="#">Hosting</a></li>
+                              </ul>
+                          </div>
+                          <div class="col-sm-6 col-md-3 item">
+                              <h3>About</h3>
+                              <ul>
+                                  <li><a href="#">Company</a></li>
+                                  <li><a href="#">Team</a></li>
+                                  <li><a href="#">Careers</a></li>
+                              </ul>
+                          </div>
+                          <div class="col-md-6 item text">
+                              <h3>Company Name</h3>
+                              <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                          </div>
+                          <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                      </div>
+                      <p class="copyright">Company Name © 2018</p>
+                  </div>
+              </footer>
+          </div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+      
+   
+
+
+  </div>
+     
+  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+     
+  <script>
+    //https://tinyurl.com/dynamic-html-checker
+    document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);  
+    
+    //manages mobile nav 
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+ </script>
+     
+ </body>
+</html>

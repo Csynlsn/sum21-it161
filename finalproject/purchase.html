@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Kacie Nielsen's IT161 Final Project</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/navstyles.css" />
+ </head>
+ <body>
+     <header>
+      <h1 class="header-logo">
+        <a class="header-logo" href="index.html">Farrago Spiritum Tarot</a> 
+      </h1>
+     <nav class="topnav" id="myTopnav">
+       <a href="index.html">Home</a>
+       <a href="about.html">About</a>
+       <a href="https://www.etsy.com/listing/823685312/farrago-spiritum-tarot-deck" target="_blank" class="active">Purchase</a>
+       <a href="gallery.html">Gallery</a> 
+       <a href="contact.html">Contact</a>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+     </nav>
+     </header>
+
+     <h1 class="header">Purchase</h1>
+     <div class="purchase">
+       <div>
+         <p>The Farrago Spiritum Tarot is available for purchase through Esty</p>   
+       </div>
+
+     </div>
+
+
+     <div class="wrapper">
+
+      <!-- HIDE IMAGES START
+     
+      <img class="desktop" src="fpimages/tarot-card-propheta.jpeg" alt="Photo of the Prophet card. Blue and aquatic themed with female form drapped in robes walking on water between two columns" />
+        
+      <img class="tablet" src="fpimages/tarot-card-propheta.jpeg" alt="Photo of the Prophet card. Blue and aquatic themed with female form drapped in robes walking on water between two columns" />
+        
+      <img class="phone" src="fpimages/card-princess-of-wands.jpeg" alt="Photo of Princess of Wands card. Fire themed with feminine statue  holding staff standing amoung flames near luminous stones" />
+       
+      HIDE IMAGES STOP -->
+
+       <h2 class="subheader">Morbi Tristique Senectus</h2>
+       
+       <p>Aenean ut ipsum gravida, feugiat ligula in, ullamcorper nibh. Etiam pellentesque lorem id molestie consectetur. Nullam vulputate pretium diam, sit amet sagittis lorem accumsan at. Fusce quis dui eros.</p>
+          
+    
+     <footer>
+      <div>
+        <p><small> 
+        <i style="width:30px"></i> Seattle, WA<br>
+        <i style="width:30px"></i> Phone: 206 200 2626<br>
+        <i style="width:30px"> </i> Email: mail@mail.com<br>
+        </small></p>
+      </div>
+      
+      <p><small>&copy; 2021 by 
+          <a href="contact.php">Kacie Nielsen</a>, All Rights Reserved ~ 
+          <a id="html-checker" href="#">Check HTML</a> ~ 
+          <a href="https://jigsaw.w3.org/css-validator/check?uri=referer">Check CSS</a></small>
+     </p>
+    </footer>
+  </div>
+     
+  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+     
+  <script>
+    //https://tinyurl.com/dynamic-html-checker
+    document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);  
+    
+    //manages mobile nav 
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+ </script>
+     
+ </body>
+</html>
